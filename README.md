@@ -23,7 +23,7 @@ The folder structure of your TIP CP4I application needs to be the following:
                 <git-repo-name>.<environment-n>.properties
 ```
 
-The subfolders in the `config` folder needs to have a BAR override file with name **<git-repo-name>.<environment>.properties** in the folder called `baroverides`
+The subfolders in the `config` folder needs to have a BAR override file with name **{git-repo-name}.{environment}.properties** in the folder called `baroverides`
 
 1. Navigate to the root folder (the one represented by the git-repo-name above) of your TIP CP4I application
 2. Run script with the environment as a parameter, for instance:
