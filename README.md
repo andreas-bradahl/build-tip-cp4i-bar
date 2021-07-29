@@ -30,3 +30,4 @@ The subfolders in the `config` folder needs to have a BAR override file with nam
 ```
 python build_bar.py qa
 ```
+3. An overridden BAR file should now be placed in your `baroverides` folder
