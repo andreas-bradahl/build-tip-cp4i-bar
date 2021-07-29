@@ -4,23 +4,23 @@ CLI application to create an overridden BAR articact file
 ## Usage
 The folder structure of your TIP CP4I application needs to be the following:
 ```
-<git-repo-name>
+{git-repo-name}
     projects
-        application-1
-        application-2
+        {application-1}
+        {application-2}
         ...
-        application-n
+        {application-n}
     config
-        environment-1
+        {environment-1}
             baroverides
-                <git-repo-name>.<environment-1>.properties
-        environment-2
+                {git-repo-name}.{environment-1}.properties
+        {environment-2}
             baroverides
-                <git-repo-name>.<environment-2>.properties
+                {git-repo-name}.{environment-2}.properties
         ...
-        environment-n
+        {environment-n}
             baroverides
-                <git-repo-name>.<environment-n>.properties
+                {git-repo-name}.{environment-n}.properties
 ```
 
 The subfolders in the `config` folder needs to have a BAR override file with name **{git-repo-name}.{environment}.properties** in the folder called `baroverides`
