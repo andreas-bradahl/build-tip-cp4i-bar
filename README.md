@@ -6,12 +6,15 @@ The folder structure of your TIP CP4I application needs to be the following:
 ```
 <git-repo-name>
     projects
+        application-1
+        application-2
+        ...
+        application-n
     config
-        local
-        readyapi
-        test
-        qa
-        prod
+        environment-1
+        environment-2
+        ...
+        environment-n
 ```
 
 The subfolders in the `config` folder needs to have a BAR override file with name **<git-repo-name>.<environment>.properties** in the folder called `baroverides`
