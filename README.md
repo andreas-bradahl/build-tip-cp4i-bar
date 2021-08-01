@@ -1,5 +1,5 @@
 # build-tip-cp4i-bar
-CLI application to create an overridden BAR articact file
+CLI application to create an overridden BAR articact file for IBM App Connect Enterprise
 
 ## Usage
 The folder structure of your TIP CP4I application needs to be the following:
